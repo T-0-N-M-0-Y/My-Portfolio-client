@@ -7,10 +7,10 @@ import image3 from '../../assets/Food-Experts.png'
 
 const Portfolio = () => {
     return (
-        <div>
-            <h3 className="text-3xl uppercase text-orange-700 my-10 text-center">My Projects</h3>
+        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 lg:h-screen'>
+            <h3 className="lg:text-3xl text-xl uppercase text-orange-700 lg:my-10 my-4 text-center">My Projects</h3>
 
-            <div className="lg:grid grid-cols-3 gap-3">
+            <div className="grid lg:grid-cols-3 gap-3">
 
                 {/* project 1 */}
                 <div className="card w-full h-96 bg-base-100 shadow-xl">
@@ -52,7 +52,7 @@ const Portfolio = () => {
 
                 {/* Project 2  */}
                 <div className="card w-full h-96 bg-base-100 shadow-xl">
-                    <figure><img src={image2} alt="Shoes" className="w-full h-full object-cover object-top hover:object-bottom transition-all ease-in image-container" /></figure>
+                    <figure><img src={image2} alt="Shoes" className="w-full h-full pl-3 object-cover object-top hover:object-bottom transition-all ease-in image-container" /></figure>
                     <div className="card-body text-xs font-normal">
                         <h2 className="card-title uppercase">Toy Cars!</h2>
                         <p>This is an Online Show Room for Toy of Cars! Anyone can upload and Show their Toys to the Users!</p>
@@ -90,7 +90,7 @@ const Portfolio = () => {
 
                 {/* Project 3  */}
                 <div className="card w-full h-96 bg-base-100 shadow-xl">
-                    <figure><img src={image3} alt="Shoes" className="w-full h-full object-cover object-top hover:object-bottom transition-all ease-in image-container" /></figure>
+                    <figure><img src={image3} alt="Shoes" className="w-full h-full pl-3 object-cover object-top hover:object-bottom transition-all ease-in image-container" /></figure>
                     <div className="card-body text-xs font-normal">
                         <h2 className="card-title uppercase">Food Experts!</h2>
                         <p>This is a Website for Thai Food Lovers!!</p>
@@ -127,12 +127,12 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className='text-center mt-24'>
+            <div className='text-center my-14'>
                 <motion.div className="box"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}
                     transition={{ type: "spring", stiffness: 400, damping: 17 }} >
-                    <Link to={'/projects'} className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white">Explore My Projects</Link>
+                    <Link to={'/contact'} className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white">Contact Me</Link>
                 </motion.div>
             </div>
         </div>

@@ -8,19 +8,19 @@ const Skills = () => {
     console.log(skills);
 
     return (
-        <div>
-            <h3 className="text-3xl uppercase text-orange-700 my-10 text-center">My Skills</h3>
-            <p className="font-normal text-md">
+        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 h-screen'>
+            <h3 className="lg:text-3xl text-xl uppercase text-orange-700 lg:my-10 my-4 text-center">My Skills</h3>
+            <p className="font-normal lg:text-md text-sm">
                 EXPERTISE: HTML5 || CSS3 || Bootstrap || TailwindCSS || DaisyUI || JavaScript || ES6 || React || React Router <br />
                 COMFORTABLE: Firebase || REST API || Express JS || MongoDB || React Hook Form <br />
                 FAMILIAR: Node.js || JWT || Stripe || TanStack Query || Axios <br />
                 TOOLS: Windows ||VS Code || Git & Github || Figma || Netlify || Vercel</p>
-            <div className="grid grid-cols-10 gap-3 my-10">
+            <div className="grid lg:grid-cols-10 grid-cols-5 gap-3 lg:my-10 my-4">
                 {
-                    skills.map(skill => <img key={skill._id} src={skill.image} className="h-24 w-full rounded-full"></img>)
+                    skills.map(skill => <img key={skill._id} src={skill.image} className="lg:h-24 h-10 w-10 lg:w-full rounded-xl"></img>)
                 }
             </div>
-            <div className='text-center mt-32'>
+            <div className='text-center lg:mt-24 mt-20'>
                 <motion.div className="box"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}
