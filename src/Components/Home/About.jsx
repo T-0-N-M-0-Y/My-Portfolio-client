@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const About = () => {
 
     return (
-        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 h-screen'>
+        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 h-full'>
             <div className="about-me">
                 <h3 className="lg:text-3xl text-lg uppercase text-orange-700 lg:my-10">A Bit About Me</h3>
                 <p className="font-normal text-sm lg:text-xl">I am a passionate junior web developer with a strong foundation in software engineering. I recently graduated from Daffodil International University, where I gained expertise in various web technologies. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a lifelong learner, continuously expanding my knowledge and staying up-to-date with the latest trends in web development. I am passionate about creating exceptional user experiences.</p>
@@ -52,7 +52,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='text-center mt-28'>
+            <div className='text-center py-28'>
                 <motion.div className="box"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}

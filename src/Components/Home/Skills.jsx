@@ -8,7 +8,7 @@ const Skills = () => {
     console.log(skills);
 
     return (
-        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 h-screen'>
+        <div className='bg-orange-100 lg:px-24 px-5 lg:py-14 py-2 h-full'>
             <h3 className="lg:text-3xl text-xl uppercase text-orange-700 lg:my-10 my-4 text-center">My Skills</h3>
             <p className="font-normal lg:text-md text-sm">
                 EXPERTISE: HTML5 || CSS3 || Bootstrap || TailwindCSS || DaisyUI || JavaScript || ES6 || React || React Router <br />
@@ -20,7 +20,7 @@ const Skills = () => {
                     skills.map(skill => <img key={skill._id} src={skill.image} className="lg:h-24 h-10 w-10 lg:w-full rounded-xl"></img>)
                 }
             </div>
-            <div className='text-center lg:mt-24 mt-20'>
+            <div className='text-center py-14'>
                 <motion.div className="box"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}

@@ -7,7 +7,7 @@ import image3 from '../../assets/Food-Experts.png'
 
 const Portfolio = () => {
     return (
-        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 lg:h-screen'>
+        <div className='bg-orange-100 lg:px-24 px-5 lg:py-10 py-2 h-full'>
             <h3 className="lg:text-3xl text-xl uppercase text-orange-700 lg:my-10 my-4 text-center">My Projects</h3>
 
             <div className="grid lg:grid-cols-3 gap-3">
@@ -127,7 +127,7 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className='text-center my-14'>
+            <div className='text-center py-14'>
                 <motion.div className="box"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}

@@ -30,7 +30,7 @@ const Home = () => {
                     <img src="https://i.ibb.co/LxZzDGC/my-photo-no-back.png" className='w-full lg:h-full h-96' alt="" />
                 </div>
             </div>
-            <div className='text-center mt-10'>
+            <div className='text-center py-14'>
                 <motion.div className="box"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}

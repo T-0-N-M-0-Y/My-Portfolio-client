@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion"
 import './Navbar.css'
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -51,9 +52,16 @@ const Navbar = () => {
                 </div>
                 <p className="text-3xl">TO<span className="text-orange-700">NM</span>OY</p>
             </div>
-            <div className="navbar-end hidden lg:flex">
+            <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {navOptions}
+                </ul>
+            </div>
+            <div className="navbar-end hidden lg:flex items-center">
+                <ul className="menu menu-horizontal px-1">
+                    <a href="https://www.linkedin.com/in/md-ashiqur-rahman-tonmoy-ab1569278/"><FaLinkedinIn className="h-10 w-5 mx-2 text-orange-700"></FaLinkedinIn></a>
+                    <a href="https://github.com/T-0-N-M-0-Y"><FaGithub className="w-5 h-10 mr-2 text-orange-700"></FaGithub></a>
+                    <a href="https://www.facebook.com/profile.php?id=100090913276553"><FaFacebook className="h-10 w-5 text-orange-700"></FaFacebook></a>
                 </ul>
             </div>
         </div>
