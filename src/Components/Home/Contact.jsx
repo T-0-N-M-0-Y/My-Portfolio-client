@@ -58,7 +58,7 @@ const Contact = () => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: .9 }}
                     transition={{ type: "spring", stiffness: 400, damping: 17 }} >
-                    <Link to={'/home'} className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white">Home</Link>
+                    <Link to={'/'} className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white">Home</Link>
                 </motion.div>
             </div>
         </div>
