@@ -30,7 +30,7 @@ const Portfolio = () => {
                                 <p>* Responsive Design</p>
                                 <p>* Technologies: TailswindCSS | DaisyUI | React | React Router | Firebase | JWT | Express JS | MongoDB | Stripe | VS Code | Git | Vercel</p>
                                 <div className="flex justify-between mt-4">
-                                    <a className="text-blue-700 underline" href="https://sports-zone-f93e5.web.app/">Live Demo</a>
+                                    <a className="text-blue-700 underline" href="https://sports-zone-app.netlify.app">Live Demo</a>
                                     <div className="flex items-center">
                                         <p>Github:</p>
                                         <a className="text-blue-700 underline" href="https://github.com/T-0-N-M-0-Y/Sports-Zone-Client">Client</a> ||
