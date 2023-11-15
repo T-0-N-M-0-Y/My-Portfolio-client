@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './Projects.css'
 import image1 from '../../assets/Sports-Zone.png'
 import image2 from '../../assets/Toy-Cars.png'
-import image3 from '../../assets/Food-Experts.png'
+import image3 from '../../assets/Profit Prime.png'
 
 const Portfolio = () => {
     return (
@@ -11,6 +11,46 @@ const Portfolio = () => {
             <h3 className="lg:text-3xl text-xl uppercase text-orange-700 lg:my-10 my-4 text-center">My Projects</h3>
 
             <div className="grid lg:grid-cols-3 gap-3">
+
+                {/* Project 3  */}
+                <div className="card w-full h-96 bg-base-100 shadow-xl">
+                    <figure><img src={image3} alt="Shoes" className="w-full h-full object-cover object-top hover:object-bottom transition-all ease-in image-container" /></figure>
+                    <div className="card-body text-xs font-normal">
+                        <h2 className="card-title uppercase">Profit Prime!</h2>
+                        <p>A Revenue Generation Platform(Team Project)!!</p>
+                        <label htmlFor="my_modal_3" className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white w-full text-center mt-4">Details</label>
+                        <input type="checkbox" id="my_modal_3" className="modal-toggle" />
+                        <div className="modal">
+                            <div className="modal-box text-lg">
+                                <h3 className="font-bold text-lg mb-5">Profit Prime</h3>
+                                <p className="mb-2">Maximize profits effortlessly with our Revenue Generation Platform. Harness data-driven insights, optimize strategies,
+                                    and elevate customer engagement for exponential growth.</p>
+                                <p>* Profit Prime gives businesses real-time insights into revenue trends, customer behavior, and market dynamics!</p>
+                                <p>* Dynamic Pricing Options feature fosters flexibility and accommodates companies of all sizes, showcasing the platforms
+                                    adaptability!</p>
+                                <p>*  The dashboard visually represents data through charts (e.g., bar charts, line charts) and other graphical elements!</p>
+                                <p>* Responsive Design!</p>
+                                <p>* Technologies: TailswindCSS | DaisyUI | React | React Router | Firebase | Express JS | MongoDB | VS Code | Git | Vercel</p>
+                                <div className="flex justify-between mt-4">
+                                    <a className="text-blue-700 underline" href="https://profit-prime.netlify.app">Live Demo</a>
+                                    <div className="flex items-center">
+                                        <p>Github:</p>
+                                        <a className="text-blue-700 underline" href="https://github.com/T-0-N-M-0-Y/ProfitPrime/tree/main">Client</a> ||
+                                        <a className="text-blue-700 underline" href="https://github.com/T-0-N-M-0-Y/ProfitPrime-Server">server</a>
+                                    </div>
+                                </div>
+                                <div className="modal-action">
+                                    <motion.div className="box"
+                                        whileHover={{ scale: 1.1 }}
+                                        whileTap={{ scale: .9 }}
+                                        transition={{ type: "spring", stiffness: 400, damping: 17 }} >
+                                        <label htmlFor="my_modal_3" className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white text-center">Close!</label>
+                                    </motion.div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 {/* project 1 */}
                 <div className="card w-full h-96 bg-base-100 shadow-xl">
@@ -88,43 +128,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                {/* Project 3  */}
-                <div className="card w-full h-96 bg-base-100 shadow-xl">
-                    <figure><img src={image3} alt="Shoes" className="w-full h-full pl-3 object-cover object-top hover:object-bottom transition-all ease-in image-container" /></figure>
-                    <div className="card-body text-xs font-normal">
-                        <h2 className="card-title uppercase">Food Experts!</h2>
-                        <p>This is a Website for Thai Food Lovers!!</p>
-                        <label htmlFor="my_modal_3" className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white w-full text-center mt-4">Details</label>
-                        <input type="checkbox" id="my_modal_3" className="modal-toggle" />
-                        <div className="modal">
-                            <div className="modal-box text-lg">
-                                <h3 className="font-bold text-lg mb-5">Food Experts</h3>
-                                <p className="mb-2">This is a Website for Thai Food Lovers!</p>
-                                <p>* Find Your Favourite Thai Foods Here!</p>
-                                <p>* Recipes by Best Chefs Over the World!</p>
-                                <p>* Bookmark Your Favourites!</p>
-                                <p>* Responsive Design!</p>
-                                <p>* Technologies: TailswindCSS | DaisyUI | React | React Router | Firebase | Express JS | MongoDB | VS Code | Git | Vercel</p>
-                                <div className="flex justify-between mt-4">
-                                    <a className="text-blue-700 underline" href="https://assignment-10-chef-recipe-hunt.web.app">Live Demo</a>
-                                    <div className="flex items-center">
-                                        <p>Github:</p>
-                                        <a className="text-blue-700 underline" href="https://github.com/T-0-N-M-0-Y/Food-Experts">Client</a> ||
-                                        <a className="text-blue-700 underline" href="https://github.com/T-0-N-M-0-Y/Food-Experts-Server">server</a>
-                                    </div>
-                                </div>
-                                <div className="modal-action">
-                                    <motion.div className="box"
-                                        whileHover={{ scale: 1.1 }}
-                                        whileTap={{ scale: .9 }}
-                                        transition={{ type: "spring", stiffness: 400, damping: 17 }} >
-                                        <label htmlFor="my_modal_3" className="bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 p-3 rounded-lg ml-2 hover:text-white text-center">Close!</label>
-                                    </motion.div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div className='text-center py-14'>

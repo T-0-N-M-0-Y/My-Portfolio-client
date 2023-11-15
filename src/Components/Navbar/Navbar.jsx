@@ -59,9 +59,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-end hidden lg:flex items-center">
                 <ul className="menu menu-horizontal px-1">
-                    <a href="https://www.linkedin.com/in/md-ashiqur-rahman-tonmoy-ab1569278/"><FaLinkedinIn className="h-10 w-5 mx-2 text-orange-700"></FaLinkedinIn></a>
-                    <a href="https://github.com/T-0-N-M-0-Y"><FaGithub className="w-5 h-10 mr-2 text-orange-700"></FaGithub></a>
-                    <a href="https://www.facebook.com/profile.php?id=100090913276553"><FaFacebook className="h-10 w-5 text-orange-700"></FaFacebook></a>
+                    <a href="https://www.linkedin.com/in/md-ashiqur-rahman-tonmoy-ab1569278/"><FaLinkedinIn className="h-10 w-5 mx-2 text-orange-700 hover:animate-ping"></FaLinkedinIn></a>
+                    <a href="https://github.com/T-0-N-M-0-Y"><FaGithub className="w-5 h-10 mr-2 text-orange-700  hover:animate-ping"></FaGithub></a>
+                    <a href="https://www.facebook.com/profile.php?id=100090913276553"><FaFacebook className="h-10 w-5 text-orange-700  hover:animate-ping"></FaFacebook></a>
                 </ul>
             </div>
         </div>
