@@ -12,8 +12,8 @@ const Skills = () => {
             <h3 className="lg:text-3xl text-xl uppercase text-orange-700 lg:my-10 my-4 text-center">My Skills</h3>
             <p className="font-normal lg:text-md text-sm">
                 EXPERTISE: HTML5 || CSS3 || Bootstrap || TailwindCSS || DaisyUI || JavaScript || ES6 || React || React Router <br />
-                COMFORTABLE: Firebase || REST API || Express JS || MongoDB || React Hook Form <br />
-                FAMILIAR: Node.js || JWT || Stripe || TanStack Query || Axios <br />
+                COMFORTABLE: Firebase || REST API || Express JS || MongoDB || TanStack Query || Axios <br />
+                FAMILIAR: Node.js || Redux || Next JS || JWT || Stripe <br />
                 TOOLS: Windows ||VS Code || Git & Github || Figma || Netlify || Vercel</p>
             <div className="grid lg:grid-cols-10 grid-cols-5 gap-3 lg:my-10 my-4">
                 {

@@ -9,7 +9,7 @@ const Home = () => {
         <div className='bg-orange-100 lg:px-24 px-2 lg:py-10 h-screen'>
             <div className='lg:flex items-center'>
                 <div>
-                    <p className='lg:text-2xl text-sm'>Assalamu Alaikum, I am</p>
+                    <p className='lg:text-2xl text-sm'>Hello, I am</p>
                     <p className='lg:text-5xl text-xl my-2'>Md. Ashiqur Rahman Tonmoy</p>
                     <div className='flex lg:pr-52'>
                         <Marquee>
@@ -20,7 +20,7 @@ const Home = () => {
                         </Marquee>
                     </div>
                     <div className="flex items-center justify-start mt-2">
-                        <a href='https://drive.usercontent.google.com/download?id=1UaiJsfMHLIBOVObL7nEEPhPSoIU0e3yn&export=download&authuser=2&confirm=t&uuid=5aff10c6-5bb3-4269-b85e-229fe13ead1a&at=APZUnTUaDx8vPsOFUY-IeMWldsGD:1694448895048' className="btn btn-sm md:btn-md bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 rounded-lg hover:text-white"><FaDownload></FaDownload>Resume</a>
+                        <a href='https://drive.usercontent.google.com/download?id=1RPf8EK-LxYNR-n7UB85FDsUDmkA4otxt&export=download&authuser=2&confirm=t&uuid=4bd48dff-7e0e-41e3-a578-4d3ef563b039&at=APZUnTWi-3Z9bgIiq4S5Ltah8O-J:1700058616371' className="btn btn-sm md:btn-md bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 rounded-lg hover:text-white"><FaDownload></FaDownload>Resume</a>
                         <Link to={'/contact'}>
                             <button className="btn btn-sm md:btn-md ml-2 bg-orange-700 text-white hover:bg-gradient-to-r from-slate-900 to-orange-900 hover:text-white"><FaPhone></FaPhone> Contact</button>
                         </Link>
